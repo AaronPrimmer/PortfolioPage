@@ -8,6 +8,7 @@ import Portfolio from "./pages/Portfolio.jsx";
 import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
 import Resume from "./pages/resume.jsx";
+import React from "react";
 
 const router = createBrowserRouter([
   {
@@ -15,13 +16,15 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       { index: true, element: <Portfolio /> },
-      { path: "about", element: <About /> },
-      { path: "contact", element: <Contact /> },
-      { path: "resume", element: <Resume /> },
+      { path: "/about", element: <About /> },
+      { path: "/contact", element: <Contact /> },
+      { path: "/resume", element: <Resume /> },
     ],
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <RouterProvider router={router} />,
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>,
 );

@@ -6,29 +6,31 @@ export default function Nav() {
   };
 
   return (
-    <nav>
-      <ul className="nav nav-tabs">
-        <li className="nav-item">
-          <NavLink className={getLinkClass} to="/" end>
-            Portfolio
-          </NavLink>
-        </li>
-        <li className="nav-item">
-          <NavLink className={getLinkClass} to="/about">
-            About
-          </NavLink>
-        </li>
-        <li className="nav-item">
-          <NavLink className={getLinkClass} to="/contact">
-            Contact
-          </NavLink>
-        </li>
-        <li className="nav-item">
-          <NavLink className={getLinkClass} to="/resume">
-            Resume
-          </NavLink>
-        </li>
-      </ul>
-    </nav>
+    <>
+      <nav>
+        <ul className="nav nav-tabs justify-content-center">
+          <li className="nav-item">
+            <NavLink className={getLinkClass} to="/" end>
+              Portfolio
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className={getLinkClass} to="/about">
+              About
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className={getLinkClass} to="/contact">
+              Contact
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className={getLinkClass} to="/resume">
+              Resume
+            </NavLink>
+          </li>
+        </ul>
+      </nav>
+    </>
   );
 }

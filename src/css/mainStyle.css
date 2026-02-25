@@ -42,6 +42,37 @@ nav {
   margin-bottom: 1rem;
 }
 
+.portfolio-list {
+  text-align: center;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.portfolio-card {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 300px;
+}
+
+.portfolio-card img {
+  width: 200px;
+  height: 200px;
+}
+
+/*    NAV MAIN    */
+/*----------------*/
+
+.nav-link {
+  color: #ffdbdb;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
 /*   ABOUT MAIN   */
 /*----------------*/
 

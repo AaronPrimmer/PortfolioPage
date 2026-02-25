@@ -5,7 +5,7 @@ export default function Header() {
     <>
       <header>
         <div>
-          <h1>Aaron's Portfolio</h1>
+          <h1>Aaron Primmer's Portfolio</h1>
         </div>
         <Nav />
       </header>

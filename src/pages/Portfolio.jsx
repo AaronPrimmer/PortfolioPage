@@ -16,7 +16,7 @@ export default function Portfolio() {
             <li key={card.id} className="portfolio-card">
               <h5>{card.title}</h5>
               <a href={card.link} target="_blank">
-                <img src={card.image} alt={card.title} />
+                <img src={"./images/" + card.image} alt={card.title} />
               </a>
               <p>{card.description}</p>
               <p>

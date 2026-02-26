@@ -59,6 +59,10 @@ nav {
   width: 300px;
 }
 
+.portfolio-card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
 .portfolio-card img {
   width: 200px;
   height: 200px;
@@ -101,6 +105,44 @@ nav {
 
 .profile-picture:hover {
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 1);
+}
+
+/*  CONTACT PAGE  */
+/*----------------*/
+
+.contact-main {
+  padding: 2rem;
+  min-height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  gap: 1.5rem;
+  min-width: 400px;
+}
+
+.contact-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  max-width: 700px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  min-width: 400px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 400px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #929292;
+  border-radius: 4px;
 }
 
 /*     FOOTER     */

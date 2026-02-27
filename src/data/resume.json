@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Aaron Primmer",
+    "email": "aaronmprimmer@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/aaron-primmer-670991268/",
+    "github": "https://github.com/AaronPrimmer",
+    "summary": "Self-driven and passionate technologist with 14 years of hands-on experience teaching myself programming languages, frameworks, and development concepts from the ground up. Now channeling that deep foundation and relentless curiosity into a full-stack development career, ready to bring real-world problem-solving skills and a proven ability to learn anything to a forward-thinking engineering team.",
+    "objective": "To obtain a full-stack developer position where I can leverage my expertise in frontend and backend technologies to build scalable, high performance applications that drive business growth.",
+    "experience": [
+      {
+        "company": "The News Group",
+        "position": "Videographer/Editor",
+        "startDate": "March 2012",
+        "endDate": "Present",
+        "description": "Served as lead videographer and editor for a high-volume video production company managing a large-scale corporate account, consistently delivering broadcast quality content under tight deadlines.  Responsible for the full production lifecycle, from pre-production planning and gear management to on-site shooting and post-production editing. Worked directly with C-suite and executive level clients to understand their vision, communicate creative direction, and ensure final deliverables aligned with brand standards and business objectives."
+      },
+      {
+        "company": "KOKI - FOX23 News",
+        "position": "Photojournalist",
+        "startDate": "March 2002",
+        "endDate": "Feb 2012",
+        "description": "Worked as a field photojournalist for a local television news station, responsible for capturing compelling visual stories across a wide range of breaking news, feature, and investigative assignments. Operated professional broadcast cameras, lighting, and audio equipment in fast-paced, unpredictable environments to deliver broadcast-ready footage on tight deadlines.  Consistently demonstrated sound news judgment, strong storytelling instincts, and the ability to work independently in the field while staying in close communication with the assignment desk and production team."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Spartan College of Aeronautics and Technology",
+        "degree": "Associate Degree of Communications",
+        "startDate": "July 2000",
+        "endDate": "May 2002"
+      },
+      {
+        "institution": "Codecademy",
+        "degree": "Full-Stack Developer Certification",
+        "startDate": "Sept 2025",
+        "endDate": "March 2026"
+      }
+    ],
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "HTML5",
+      "CSS3",
+      "Git",
+      "RESTful APIs",
+      "Agile Development"
+    ],
+    "certifications": [
+      {
+        "name": "Full-Stack Developer Certification",
+        "issuer": "Codecademy",
+        "date": "03-2026"
+      }
+    ]
+  }
+]

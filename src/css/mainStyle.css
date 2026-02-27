@@ -145,6 +145,24 @@ nav {
   border-radius: 4px;
 }
 
+.contact-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 0.5rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.contact-button:hover {
+  background-color: #555;
+}
+
+.contact-button:active {
+  background-color: #777;
+}
+
 /*     FOOTER     */
 /*----------------*/
 

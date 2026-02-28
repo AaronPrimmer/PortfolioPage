@@ -66,6 +66,12 @@ nav {
 .portfolio-card img {
   width: 200px;
   height: 200px;
+  border-radius: 10px;
+}
+
+.logo-images img {
+  width: 40px;
+  height: 40px;
 }
 
 /*    NAV MAIN    */
@@ -207,6 +213,18 @@ nav {
   justify-content: space-between;
   gap: 4rem;
   margin-top: 1rem;
+}
+
+.logo-images {
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+}
+
+.resume-ul {
+  width: 100px;
+  list-style: none;
+  padding-left: 0;
 }
 
 /*     FOOTER     */

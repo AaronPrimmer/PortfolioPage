@@ -9,11 +9,22 @@ export default function Resume() {
             <h2>{resume[0].name}</h2>
             <p>{resume[0].email}</p>
             <p>
-              <a href={resume[0].linkedin}>LinkedIn</a>
+              <a href={resume[0].linkedin}>
+                <img
+                  src="/images/linkedInLogo.png"
+                  alt="LinkedIn"
+                  className="logo-images"
+                />
+              </a>{" "}
+              <a href={resume[0].github}>
+                <img
+                  src="/images/githubLogo.png"
+                  alt="GitHub"
+                  className="logo-images"
+                />
+              </a>
             </p>
-            <p>
-              <a href={resume[0].github}>GitHub</a>
-            </p>
+            <p></p>
             <h5>Objective</h5>
             <p>{resume[0].objective}</p>
             <h3>Education</h3>
@@ -33,7 +44,7 @@ export default function Resume() {
             <div className="resume-details">
               <div>
                 <h3>Skills</h3>
-                <ul>
+                <ul className="resume-ul">
                   {resume[0].skills.map((skill, index) => (
                     <li key={index}>{skill}</li>
                   ))}

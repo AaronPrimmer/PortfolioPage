@@ -20,8 +20,8 @@ export default function Portfolio() {
               </a>
               <p>{card.description}</p>
               <p>
-                <a href={card.repo} target="_blank">
-                  Github Repository
+                <a href={card.repo} target="_blank" className="logo-images">
+                  <img src="/images/githubLogo.png" alt="GitHub" />
                 </a>
               </p>
             </li>

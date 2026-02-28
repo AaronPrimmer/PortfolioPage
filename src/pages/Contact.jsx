@@ -59,7 +59,7 @@ export default function Contact() {
         <br />
         <label htmlFor="message">Message:</label>
         <textarea
-          id="message"
+          id="inputMessage"
           name="message"
           rows="5"
           required

@@ -4,6 +4,15 @@ export default function Resume() {
   return (
     <>
       <div className="resume-main">
+        <h3>
+          <a
+            href="/assets/AaronPrimmerResume2026.pdf"
+            download
+            className="resume-link"
+          >
+            Download My Resume
+          </a>
+        </h3>
         <div className="resume-header">
           <div className="resume-info">
             <h2>{resume[0].name}</h2>
